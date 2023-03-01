@@ -1,0 +1,450 @@
+
+                           Design Compiler Graphical 
+                                 DC Ultra (TM)
+                                  DFTMAX (TM)
+                              Power Compiler (TM)
+                                 DesignWare (R)
+                                 DC Expert (TM)
+                               Design Vision (TM)
+                               HDL Compiler (TM)
+                               VHDL Compiler (TM)
+                                  DFT Compiler
+                               Design Compiler(R)
+
+                 Version Q-2019.12 for linux64 - Nov 26, 2019 
+
+                    Copyright (c) 1988 - 2019 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+Initializing...
+Initializing gui preferences from file  /home/t107360216/.synopsys_dv_prefs.tcl
+#Read All Files
+read_verilog LCD_CTRL.v
+Loading db file '/home/t107360216/Desktop/cell_lib/CBDK_IC_Contest_v2.5/SynopsysDC/db/slow.db'
+Loading db file '/home/t107360216/Desktop/cell_lib/CBDK_IC_Contest_v2.5/SynopsysDC/db/fast.db'
+Loading db file '/usr/cad/synopsys/synthesis/cur/libraries/syn/dw_foundation.sldb'
+Loading db file '/usr/cad/synopsys/synthesis/cur/libraries/syn/gtech.db'
+Loading db file '/usr/cad/synopsys/synthesis/cur/libraries/syn/standard.sldb'
+  Loading link library 'slow'
+  Loading link library 'fast'
+  Loading link library 'gtech'
+Loading verilog file '/home/t107360216/Desktop/qiyou/E_ICC2018_priliminary_univ_cell/LCD_CTRL.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /home/t107360216/Desktop/qiyou/E_ICC2018_priliminary_univ_cell/LCD_CTRL.v
+Warning:  /home/t107360216/Desktop/qiyou/E_ICC2018_priliminary_univ_cell/LCD_CTRL.v:204: signed to unsigned conversion occurs. (VER-318)
+Warning:  /home/t107360216/Desktop/qiyou/E_ICC2018_priliminary_univ_cell/LCD_CTRL.v:206: signed to unsigned conversion occurs. (VER-318)
+
+Statistics for case statements in always block at line 61 in file
+	'/home/t107360216/Desktop/qiyou/E_ICC2018_priliminary_univ_cell/LCD_CTRL.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            62            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine LCD_CTRL line 54 in file
+		'/home/t107360216/Desktop/qiyou/E_ICC2018_priliminary_univ_cell/LCD_CTRL.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  current_state_reg  | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine LCD_CTRL line 100 in file
+		'/home/t107360216/Desktop/qiyou/E_ICC2018_priliminary_univ_cell/LCD_CTRL.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     IROM_rd_reg     | Flip-flop |   1   |  N  | N  | N  | Y  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine LCD_CTRL line 107 in file
+		'/home/t107360216/Desktop/qiyou/E_ICC2018_priliminary_univ_cell/LCD_CTRL.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     IROM_A_reg      | Flip-flop |   6   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine LCD_CTRL line 113 in file
+		'/home/t107360216/Desktop/qiyou/E_ICC2018_priliminary_univ_cell/LCD_CTRL.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      busy_reg       | Flip-flop |   1   |  N  | N  | N  | Y  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine LCD_CTRL line 121 in file
+		'/home/t107360216/Desktop/qiyou/E_ICC2018_priliminary_univ_cell/LCD_CTRL.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     coord_x_reg     | Flip-flop |   1   |  N  | N  | N  | Y  | N  | N  | N  |
+|     coord_x_reg     | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine LCD_CTRL line 127 in file
+		'/home/t107360216/Desktop/qiyou/E_ICC2018_priliminary_univ_cell/LCD_CTRL.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     coord_y_reg     | Flip-flop |   1   |  N  | N  | N  | Y  | N  | N  | N  |
+|     coord_y_reg     | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine LCD_CTRL line 134 in file
+		'/home/t107360216/Desktop/qiyou/E_ICC2018_priliminary_univ_cell/LCD_CTRL.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   address_reg_reg   | Flip-flop |   6   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine LCD_CTRL line 140 in file
+		'/home/t107360216/Desktop/qiyou/E_ICC2018_priliminary_univ_cell/LCD_CTRL.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   IRAM_valid_reg    | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine LCD_CTRL line 147 in file
+		'/home/t107360216/Desktop/qiyou/E_ICC2018_priliminary_univ_cell/LCD_CTRL.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     IRAM_A_reg      | Flip-flop |   6   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine LCD_CTRL line 154 in file
+		'/home/t107360216/Desktop/qiyou/E_ICC2018_priliminary_univ_cell/LCD_CTRL.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     IRAM_D_reg      | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine LCD_CTRL line 160 in file
+		'/home/t107360216/Desktop/qiyou/E_ICC2018_priliminary_univ_cell/LCD_CTRL.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      done_reg       | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine LCD_CTRL line 166 in file
+		'/home/t107360216/Desktop/qiyou/E_ICC2018_priliminary_univ_cell/LCD_CTRL.v'.
+===========================================================================
+|    Register Name    | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
+===========================================================================
+|    data_reg_reg     | Latch |   8   |  Y  | N  | N  | N  | -  | -  | -  |
+===========================================================================
+
+Inferred memory devices in process
+	in routine LCD_CTRL line 202 in file
+		'/home/t107360216/Desktop/qiyou/E_ICC2018_priliminary_univ_cell/LCD_CTRL.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      data_reg       | Flip-flop |  512  |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Statistics for MUX_OPs
+======================================================
+| block name/line  | Inputs | Outputs | # sel inputs |
+======================================================
+|   LCD_CTRL/156   |   64   |    8    |      6       |
+|   LCD_CTRL/169   |   64   |    8    |      6       |
+|   LCD_CTRL/169   |   64   |    8    |      6       |
+|   LCD_CTRL/169   |   64   |    8    |      6       |
+|   LCD_CTRL/169   |   64   |    8    |      6       |
+======================================================
+Presto compilation completed successfully.
+Current design is now '/home/t107360216/Desktop/qiyou/E_ICC2018_priliminary_univ_cell/LCD_CTRL.db:LCD_CTRL'
+Loaded 1 design.
+Current design is 'LCD_CTRL'.
+LCD_CTRL
+current_design LCD_CTRL
+Current design is 'LCD_CTRL'.
+{LCD_CTRL}
+link
+
+  Linking design 'LCD_CTRL'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  LCD_CTRL                    /home/t107360216/Desktop/qiyou/E_ICC2018_priliminary_univ_cell/LCD_CTRL.db
+  slow (library)              /home/t107360216/Desktop/cell_lib/CBDK_IC_Contest_v2.5/SynopsysDC/db/slow.db
+  fast (library)              /home/t107360216/Desktop/cell_lib/CBDK_IC_Contest_v2.5/SynopsysDC/db/fast.db
+  dw_foundation.sldb (library) /usr/cad/synopsys/synthesis/cur/libraries/syn/dw_foundation.sldb
+
+1
+#Setting Clock Constraints
+source -echo -verbose LCD_CTRL.sdc
+# operating conditions and boundary conditions #
+set cycle  10.0        ;#clock period defined by designer
+10.0
+create_clock -period $cycle [get_ports  clk]
+1
+set_dont_touch_network      [get_clocks clk]
+1
+set_clock_uncertainty  0.1  [get_clocks clk]
+1
+set_clock_latency      0.5  [get_clocks clk]
+1
+set_input_delay  5      -clock clk [remove_from_collection [all_inputs] [get_ports clk]]
+1
+set_output_delay 0.5    -clock clk [all_outputs] 
+1
+set_load         1     [all_outputs]
+1
+set_drive        1     [all_inputs]
+1
+set_operating_conditions  -max slow  -min fast
+Using operating conditions 'slow' found in library 'slow'.
+Using operating conditions 'fast' found in library 'fast'.
+1
+set_wire_load_model -name tsmc13_wl10 -library slow                        
+1
+set_max_fanout 20 [all_inputs]
+1
+1
+#Synthesis all design
+compile -map_effort high -area_effort high
+Information: Checking out the license 'DesignWare'. (SEC-104)
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | Q-2019.12-DWBB_201912.0 |     *     |
+| Licensed DW Building Blocks        | Q-2019.12-DWBB_201912.0 |     *     |
+============================================================================
+
+
+Information: There are 11 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+Warning: Operating condition slow set on design LCD_CTRL has different process,
+voltage and temperatures parameters than the parameters at which target library 
+fast is characterized. Delays may be inaccurate as a result. (OPT-998)
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'LCD_CTRL'
+Information: Added key list 'DesignWare' to design 'LCD_CTRL'. (DDB-72)
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Implementation Selection
+  ----------------------------------
+  Processing 'LCD_CTRL_DW01_inc_0_DW01_inc_2'
+  Processing 'LCD_CTRL_DW01_inc_1_DW01_inc_3'
+  Mapping 'LCD_CTRL_DW_cmp_0'
+  Processing 'LCD_CTRL_DW01_cmp6_0'
+  Processing 'LCD_CTRL_DW01_cmp6_1'
+  Processing 'LCD_CTRL_DW01_cmp6_2'
+  Processing 'LCD_CTRL_DW01_cmp6_3'
+  Processing 'LCD_CTRL_DW01_cmp6_4'
+  Processing 'LCD_CTRL_DW01_cmp6_5'
+  Processing 'LCD_CTRL_DW01_cmp6_6'
+  Processing 'LCD_CTRL_DW01_cmp6_7'
+  Processing 'LCD_CTRL_DW01_cmp6_8'
+  Processing 'LCD_CTRL_DW01_cmp6_9'
+  Processing 'LCD_CTRL_DW01_cmp6_10'
+  Processing 'LCD_CTRL_DW01_cmp6_11'
+  Processing 'LCD_CTRL_DW01_add_0'
+  Processing 'LCD_CTRL_DW01_add_1'
+  Processing 'LCD_CTRL_DW01_add_2'
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:22   98104.6     36.91   18232.1    5382.5                          
+    0:00:22   98104.6     36.91   18232.1    5382.5                          
+
+  Beginning Mapping Optimizations  (High effort)
+  -------------------------------
+Loading db file '/home/t107360216/Desktop/cell_lib/CBDK_IC_Contest_v2.5/SynopsysDC/db/fast.db'
+  Mapping Optimization (Phase 1)
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:27  140037.2      0.00       0.0      64.5                          
+    0:00:27  140037.2      0.00       0.0      64.5                          
+    0:00:27  140037.2      0.00       0.0      64.5                          
+    0:00:27  140037.2      0.00       0.0      64.5                          
+    0:00:27  140037.2      0.00       0.0      64.5                          
+    0:00:30   70099.2      0.00       0.0      61.7                          
+    0:00:30   69870.1      0.18      38.0      61.7                          
+    0:00:31   69868.4      0.00       0.0      60.9                          
+    0:00:32   69866.7      0.00       0.0      60.9                          
+    0:00:32   69866.7      0.00       0.0      60.9                          
+    0:00:32   69866.7      0.00       0.0      60.9                          
+    0:00:32   69866.7      0.00       0.0      60.9                          
+    0:00:32   69866.7      0.00       0.0      60.9                          
+    0:00:32   69904.0      0.00       0.0      26.3                          
+    0:00:32   69917.6      0.00       0.0      22.2                          
+    0:00:32   69939.7      0.00       0.0       3.4                          
+    0:00:32   69953.2      0.00       0.0       0.1                          
+    0:00:32   69963.4      0.00       0.0       0.1                          
+    0:00:32   69975.3      0.00       0.0       0.0                          
+    0:00:32   69982.1      0.00       0.0       0.0                          
+    0:00:33   69988.9      0.00       0.0       0.0                          
+    0:00:33   69988.9      0.00       0.0       0.0                          
+    0:00:33   69988.9      0.00       0.0       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:33   69988.9      0.00       0.0       0.0                          
+    0:00:33   69988.9      0.00       0.0       0.0                          
+    0:00:34   69822.5      0.00       0.0      51.7                          
+
+
+  Beginning Design Rule Fixing  (max_transition)  (max_capacitance)
+  ----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:34   69822.5      0.00       0.0      51.7                          
+    0:00:34   70005.9      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:34   70005.9      0.00       0.0       0.0                          
+    0:00:34   70005.9      0.00       0.0       0.0                          
+    0:00:34   69094.4      0.06       4.6       0.0                          
+    0:00:35   68461.2      0.00       0.0       0.0                          
+    0:00:35   67785.7      0.00       0.0       0.0                          
+    0:00:35   67189.9      0.12      28.8       0.0                          
+    0:00:36   66707.8      0.01       0.7       0.0                          
+    0:00:36   66531.3      0.01       1.5       0.0                          
+    0:00:36   66409.1      0.02       3.5       0.0                          
+    0:00:36   66314.0      0.02       3.5       0.0                          
+    0:00:36   66252.9      0.02       3.5       0.0                          
+    0:00:36   66225.8      0.02       3.5       0.0                          
+    0:00:36   66225.8      0.02       3.5       0.0                          
+    0:00:36   66224.1      0.00       0.0       0.0                          
+    0:00:37   66190.1      0.00       0.0       0.0                          
+    0:00:37   66190.1      0.00       0.0       0.0                          
+    0:00:37   66190.1      0.00       0.0       0.0                          
+    0:00:37   66190.1      0.00       0.0       0.0                          
+    0:00:37   66190.1      0.00       0.0       0.0                          
+    0:00:37   66190.1      0.00       0.0       0.0                          
+    0:00:37   66190.1      0.00       0.0       0.0                          
+Loading db file '/home/t107360216/Desktop/cell_lib/CBDK_IC_Contest_v2.5/SynopsysDC/db/slow.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+1
+compile -map_effort high -area_effort high -inc
+
+Information: There are 34 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+Warning: Operating condition slow set on design LCD_CTRL has different process,
+voltage and temperatures parameters than the parameters at which target library 
+fast is characterized. Delays may be inaccurate as a result. (OPT-998)
+
+  Beginning Pass 1 Mapping  (Incremental)
+  ------------------------
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Mapping Optimizations  (High effort)  (Incremental)
+  -------------------------------
+
+  Beginning Incremental Implementation Selection
+  ----------------------------------------------
+  Selecting implementations
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01   66190.1      0.00       0.0       0.0                          
+    0:00:02   66190.1      0.00       0.0       0.0                          
+    0:00:02   66101.8      0.00       0.0      39.4                          
+
+
+  Beginning Design Rule Fixing  (max_transition)  (max_capacitance)
+  ----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:02   66101.8      0.00       0.0      39.4                          
+    0:00:03   66249.5      0.00       0.0       0.0                          
+Loading db file '/home/t107360216/Desktop/cell_lib/CBDK_IC_Contest_v2.5/SynopsysDC/db/fast.db'
+Loading db file '/home/t107360216/Desktop/cell_lib/CBDK_IC_Contest_v2.5/SynopsysDC/db/slow.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+1
+write -format ddc     -hierarchy -output "LCD_CTRL_syn.ddc"
+Writing ddc file 'LCD_CTRL_syn.ddc'.
+1
+write_sdf LCD_CTRL_syn.sdf
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/home/t107360216/Desktop/qiyou/E_ICC2018_priliminary_univ_cell/LCD_CTRL_syn.sdf'. (WT-3)
+Information: Updating design information... (UID-85)
+1
+write_file -format verilog -hierarchy -output LCD_CTRL_syn.v
+Writing verilog file '/home/t107360216/Desktop/qiyou/E_ICC2018_priliminary_univ_cell/LCD_CTRL_syn.v'.
+Warning: Verilog writer has added 3 nets to module LCD_CTRL using SYNOPSYS_UNCONNECTED_ as prefix.  Please use the change_names command to make the correct changes before invoking the verilog writer.  (VO-11)
+1
+report_area > area.log
+report_timing > timing.log
+report_qor   >  LCD_CTRL_syn.qor
+design_vision> Current design is 'LCD_CTRL'.
+4.1
+Current design is 'LCD_CTRL'.
+design_vision> design_vision> exit
+
+Thank you...
